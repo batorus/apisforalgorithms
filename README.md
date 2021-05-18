@@ -1,5 +1,5 @@
-This project is meant to provide API for several interesting algorithms 
-involved in problem solving.
+This project is meant to provide APIs for several interesting algorithms 
+involved in problem solving with the use of spring boot framework.
 
 1. Find the shortest safe route in a field with sensors present. Given a rectangular
    field with few sensors present, cross it by taking the shortest safe route without
