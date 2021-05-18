@@ -23,11 +23,6 @@ public class SensorsService {
     @Autowired
     Node node;
 
-
-//    public Sensors(Node node) {
-//        this.node = node;
-//    }
-
     // Function to check if it is safe to go to position `(x, y)`
     // from the current position. The function returns false if `(x, y)`
     // is unsafe or already visited.

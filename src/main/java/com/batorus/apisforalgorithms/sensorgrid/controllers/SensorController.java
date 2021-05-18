@@ -19,10 +19,8 @@ public class SensorController {
     @Autowired
     SensorsService sensorsService;
 
-    @PostMapping(path="/sensors/findfieldpath", consumes =  {
-                        MediaType.APPLICATION_JSON_VALUE
-                },
-            produces = {MediaType.APPLICATION_JSON_VALUE})
+    @PostMapping(path="/sensors/findfieldpath", consumes = {MediaType.APPLICATION_JSON_VALUE},
+                                                produces = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<?> findPathAction(@RequestBody ListOfIntegerLists listOfIntegers) {
 
         Integer[][] listInput = listOfIntegers.getIntegerList();
